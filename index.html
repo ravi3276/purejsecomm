@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike store</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/732/732229.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="nav__top">
+            <div class="nav__logo">
+                <img src="./img/logo.jpg" alt="logo">
+            </div>
+            <div class="nav__search">
+                <input type="text" name="search" placeholder="Search...">
+                <img src="./img/search.png" alt="search">
+            </div>
+            <div class="nav__cart">
+                <p>limited offers</p>
+            </div>
+        </div>
+        <div class="nav__bottom">
+            <h2 class="nav__items">AIR FORCE</h2>
+            <h2 class="nav__items">JORDAN</h2>
+            <h2 class="nav__items">BLAZER</h2>
+            <h2 class="nav__items">CRATER</h2>
+            <h2 class="nav__items">HIPPIE</h2>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderContainer">
+            <div class="slideritems">
+                <img src="./img/air.png" alt="slider1">
+                <div class="sliderbg"></div>
+                <h1 >
+                    air force </br> new </br> season
+                </h1>
+                <h2 class="price">$199</h2>
+                <a href="#product">
+                    <button>buy now</button>
+                </a>
+            </div>
+            <div class="slideritems">
+                <img src="./img/jordan.png" alt="slider1">
+                <div class="sliderbg"></div>
+                <h1 >
+                    jorden air </br> new </br> season
+                </h1>
+                <h2 class="price">$179</h2>
+                <a href="#product">
+                    <button>buy now</button>
+                </a>
+            </div>
+            <div class="slideritems">
+                <img src="./img/blazer.png" alt="slider1">
+                <div class="sliderbg"></div>
+                <h1 >
+                    hippie air </br> new </br> season
+                </h1>
+                <h2 class="price">$179</h2>
+                <a href="#product">
+                    <button>buy now</button>
+                </a>
+            </div>
+            <div class="slideritems">
+                <img src="./img/crater.png" alt="slider1">
+                <div class="sliderbg"></div>
+                <h1 >
+                    air force </br> new </br> season
+                </h1>
+                <h2 class="price">$199</h2>
+                <a href="#product">
+                    <button>buy now</button>
+                </a>
+            </div>
+            <div class="slideritems">
+                <img src="./img/hippie.png" alt="slider1">
+                <div class="sliderbg"></div>
+                <h1 >
+                    jorden air </br> new </br> season
+                </h1>
+                <h2 class="price">$250</h2>
+                <a href="#product">
+                    <button>buy now</button>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" />
+            <h1>free shipping</h1>
+            <p>free shipping for all products</p>
+        </div>
+        <div class="feature">
+            <img src="./img/return.png" alt="" />
+            <h1>30 days return</h1>
+            <p>no questions and return easy and refund 14 days
+        </div>
+        <div class="feature">
+            <img src="./img/gift.png" alt="" />
+            <h1>gift cards</h1>
+            <p>buy gift cards for your loved once and friends</p>
+        </div>
+        <div class="feature">
+            <img src="./img/contact.png" alt="" />
+            <h1>contact us</h1>
+            <p>free shipping for all products</p>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img class="product__img" src="./img/air.png" alt="product1">
+        <div class="product__info">
+            <h1 class="product__text">air force</h1>
+            <h3 class="product__price">$199</h3>
+            <p>
+                Nike Air is our iconic innovation that uses pressurized air in a durable, flexible membrane to
+                provide lightweight cushioning.
+                The air compresses on impact and then immediately returns to its original shape and volume,
+                ready for the next impact. We debuted Nike Air in 1979, and we've been continuously evolving and
+                improving it ever since.
+            </p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <h4 class="size">42</h4>
+                <h4 class="size">43</h4>
+                <h4 class="size">44</h4>
+            </div>
+            <button class="product__btn">buy now!</button>
+        </div>
+            <div class="payment">
+                <h1 class="payTitle">Personal Information</h1>
+                <label>Name and Surname</label>
+                <input type="text" placeholder="John Doe" class="payInput">
+                <label>Phone Number</label>
+                <input type="text" placeholder="+1 234 5678" class="payInput">
+                <label>Address</label>
+                <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+                <h1 class="payTitle">Card Information</h1>
+                <div class="cardIcons">
+                    <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                    <img src="./img/master.png" alt="" width="40" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+                <button class="payButton">Checkout!</button>
+                <span class="close">X</span>
+            </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="season">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Lama Dev. All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
